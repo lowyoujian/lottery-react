@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import provider from 'web3';
 
 function App() {
+  console.log(provider);
   return (
     <div className="App">
       <header className="App-header">
